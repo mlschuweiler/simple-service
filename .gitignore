@@ -25,3 +25,6 @@ replay_pid*
 
 # Allow gradle-wrapper.jar
 !gradle-wrapper.jar
+
+.gradle/
+build/
