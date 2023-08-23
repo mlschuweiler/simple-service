@@ -1,0 +1,11 @@
+name: "CI: Java"
+
+on: [push]
+
+jobs:
+  build:
+    uses: mlschuweiler/.github/.github/workflows/ci-java.yaml@main
+    secrets: inherit
+    with:
+      java_version: "17"
+      gradle_version: "wrapper"
